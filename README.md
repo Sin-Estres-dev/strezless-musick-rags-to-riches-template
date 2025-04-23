@@ -108,3 +108,38 @@ Have questions? Join our Discord community of independent artists sharing knowle
 ---
 
 *This guide is maintained by an independent artist for the community. Last updated: April 2025. Contributions welcome at [github.com/musicmetadataguide](https://github.com/musicmetadataguide)*
+
+### Adding Your ISNI to Music Metadata: Why It Matters
+
+As an independent artist, ensuring your music metadata is accurate and comprehensive is crucial for proper crediting and potential royalty collection. One key piece of information you should consider adding, if you have one, is your **International Standard Name Identifier (ISNI)**.
+
+**What is an ISNI?**
+
+Think of an ISNI as a unique digital ID for creators and rights holders in the music industry (and beyond!). It helps distinguish you from other artists with similar names and ensures your contributions are correctly attributed to you across various databases and platforms.
+
+**Why include your ISNI in your music metadata?**
+
+* **Unique Identification:** It provides a clear and unambiguous way to identify you as a creator.
+* **Accurate Crediting:** Helps ensure you receive proper credit for your work as a performer, songwriter, or producer.
+* **Streamlined Royalty Collection:** While not directly a royalty collection tool, accurate identification can contribute to smoother rights management.
+* **Professional Standard:** Including an ISNI demonstrates attention to detail and adherence to industry best practices.
+
+**Where can you include your ISNI?**
+
+While not all metadata fields in distribution platforms currently have a dedicated "ISNI" field, here are some places you might be able to include it or discuss its inclusion with your distributor:
+
+* **Artist Name Field:** If there's no specific ISNI field, and if it's permitted by the platform's guidelines, you *could* append your ISNI to your artist name (e.g., "Your Artist Name (ISNI: 0000-0000-0000-0000)"). However, **always check the platform's guidelines first** as this might not be the intended use of the artist name field.
+* **Contributor/Composer/Writer Fields:** Some platforms allow you to specify roles and provide identifiers for contributors. If an ISNI field is available for these roles, be sure to include it.
+* **Notes or Comments Section:** Some platforms might have a general notes or comments section where you could include your ISNI for reference.
+* **Communicate with your Distributor:** The best approach is to inquire with your music distributor about whether they have a specific field for ISNI or if they have recommendations on where to include it in your metadata.
+
+**How to get an ISNI:**
+
+If you don't have an ISNI, you can obtain one through an official ISNI registration agency. Some platforms, like Sound Credit, may also offer ISNI registration services.
+
+**In summary:**
+
+While dedicated ISNI fields in music metadata are still evolving across all platforms, understanding its importance and actively seeking ways to include it (or advocating for its inclusion with your distributor) is a positive step towards ensuring your work is accurately recognized and managed in the digital music ecosystem.
+
+
+Feel free to copy and paste this comment into the relevant section of the GitHub repository. You can adjust the tone and specific points based on the existing content and the overall message of the guide. Good luck!
