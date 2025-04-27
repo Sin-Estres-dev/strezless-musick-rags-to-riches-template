@@ -143,3 +143,66 @@ While dedicated ISNI fields in music metadata are still evolving across all plat
 
 
 Feel free to copy and paste this comment into the relevant section of the GitHub repository. You can adjust the tone and specific points based on the existing content and the overall message of the guide. Good luck!
+
+
+Creating a metadata app for indie artists is a great idea! Here is a simple example of how you can create a metadata app that allows artists to manage and update their music metadata. This example is written in Python using the Flask framework for the backend and HTML/CSS for the frontend. You can customize and adapt this example to fit your specific requirements and use it as a starting point for developing your own metadata app for indie artists.
+
+Backend code (Python using Flask):
+```python
+from flask import Flask, render_template, request
+
+app = Flask(__name__)
+
+metadata = {}
+
+@app.route('/')
+def index():
+    return render_template('index.html', metadata=metadata)
+
+@app.route('/update_metadata', methods=['POST'])
+def update_metadata():
+    song_name = request.form['song_name']
+    artist = request.form['artist']
+    genre = request.form['genre']
+    
+    metadata[song_name] = {'artist': artist, 'genre': genre}
+    
+    return render_template('index.html', metadata=metadata)
+
+if __name__ == '__main__':
+    app.run(debug=True)
+```
+
+Frontend code (HTML/CSS):
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Metadata App</title>
+</head>
+<body>
+    <h1>Metadata App for Indie Artists</h1>
+    <form action="/update_metadata" method="post">
+        <label for="song_name">Song Name:</label>
+        <input type="text" name="song_name">
+        <br>
+        <label for="artist">Artist:</label>
+        <input type="text" name="artist">
+        <br>
+        <label for="genre">Genre:</label>
+        <input type="text" name="genre">
+        <br>
+        <input type="submit" value="Update Metadata">
+    </form>
+    
+    <h2>Current Metadata</h2>
+    <ul>
+        {% for song_name, data in metadata.items() %}
+            <li>{{ song_name }} - Artist: {{ data['artist'] }}, Genre: {{ data['genre'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+```
+
+This is a basic example to get you started with developing a metadata app for indie artists. You can expand on this by adding more features, such as authentication, file uploading, and more advanced metadata management capabilities. Remember to install Flask by running `pip install flask` before running the Python code. Let me know if you need further assistance or have any questions!
