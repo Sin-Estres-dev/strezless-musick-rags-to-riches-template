@@ -184,13 +184,13 @@ Frontend code (HTML/CSS):
     <h1>Metadata App for Indie Artists</h1>
     <form action="/update_metadata" method="post">
         <label for="song_name">Song Name:</label>
-        <input type="text" name="song_name">
+        <input type="text" id="song_name" name="song_name">
         <br>
         <label for="artist">Artist:</label>
-        <input type="text" name="artist">
+        <input type="text" id="artist" name="artist">
         <br>
         <label for="genre">Genre:</label>
-        <input type="text" name="genre">
+        <input type="text" id="genre" name="genre">
         <br>
         <input type="submit" value="Update Metadata">
     </form>
