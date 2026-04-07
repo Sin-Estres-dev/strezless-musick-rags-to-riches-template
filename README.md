@@ -107,7 +107,7 @@ Have questions? Join our Discord community of independent artists sharing knowle
 
 ---
 
-*This guide is maintained by an independent artist for the community. Last updated: April 2025. Contributions welcome at [github.com/musicmetadataguide](https://github.com/musicmetadataguide)*
+*This guide is maintained by an independent artist for the community. Last updated: April 2025. Contributions welcome at [github.com/Sin-Estres-dev/strezless-musick-rags-to-riches-template](https://github.com/Sin-Estres-dev/strezless-musick-rags-to-riches-template)*
 
 ### Adding Your ISNI to Music Metadata: Why It Matters
 
